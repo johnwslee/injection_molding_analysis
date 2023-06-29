@@ -43,15 +43,15 @@ For `RG3`, the f1-scores for supervised learning models, Mahalanobis Distance mo
 
 <p float="left">
     <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_cn7_ml.png" style="width:400px;height:400px;background-color:white">
-    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_rg3_ml.png" style="width:400px;height:400px;background-color:white">
+    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_rg3_ml.png" style="width:300px;height:400px;background-color:white">
 </p>
 <p float="left">
     <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_cn7_MD.png" style="width:400px;height:400px;background-color:white">
-    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_rg3_MD.png" style="width:400px;height:400px;background-color:white">
+    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_rg3_MD.png" style="width:300px;height:400px;background-color:white">
 </p>
 <p float="left">
     <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_cn7_AE.png" style="width:400px;height:400px;background-color:white">
-    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_rg3_AE.png" style="width:400px;height:400px;background-color:white">
+    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_rg3_AE.png" style="width:300px;height:400px;background-color:white">
 </p>
 
 Clearly, the effectiveness of the models were different for `CN7` and `RG3` parts. Especially, it was surprising that the f1-score could be improved from 0 to 0.3 by switching from supervised learning models to Mahalanobis Distance model. It should be also noted that the choice of the thresholds for Mahalanobis Distance model and Variational AutoEncoder model played a significant roled in determining their performances.
