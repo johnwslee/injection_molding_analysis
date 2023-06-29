@@ -50,12 +50,12 @@ Feature importances for `CN7` parts were checked on 3 models (i.e, SVC, RandomFo
 The importance of each feature appeared to be slightly different based on the models and the methods used. It turned out that "Max Injection Speed", "Filling Time", "Mold Temperature 4", "Barrel Temperature 1", and "Plasticizing Position" were the processing parameters that models thought to be important.
 
 <p float="left">
-    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/feature_importance_1.png" style="width:400px;height:600px;background-color:white">
-    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/feature_importance_2.png" style="width:400px;height:600px;background-color:white">
+    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/feature_importance_1.png" style="width:400px;height:400px;background-color:white">
+    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/feature_importance_2.png" style="width:400px;height:400px;background-color:white">
 </p>
 <p float="left">
-    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/feature_importance_3.png" style="width:400px;height:600px;background-color:white">
-    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/feature_importance_4.png" style="width:400px;height:600px;background-color:white">
+    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/feature_importance_3.png" style="width:400px;height:400px;background-color:white">
+    <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/feature_importance_4.png" style="width:400px;height:400px;background-color:white">
 </p>
 
 
