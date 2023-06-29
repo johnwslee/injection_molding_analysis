@@ -54,7 +54,7 @@ For `RG3`, the f1-scores for supervised learning models, Mahalanobis Distance mo
     <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/clf_report_rg3_AE.png" style="width:400px;height:300px;background-color:white">
 </p>
 
-Clearly, the effectiveness of the models were different for `CN7` and `RG3` parts. Especially, it was surprising that the f1-score could be improved from 0 to 0.3 by switching from supervised learning models to Mahalanobis Distance model. It should be also noted that the choice of the thresholds for Mahalanobis Distance model and Variational AutoEncoder model played a significant roled in determining their performances.
+Clearly, the effectiveness of the models were different for `CN7` and `RG3` parts. Especially, it was surprising that the f1-score could be improved from 0 to 0.27 by switching from supervised learning models to Mahalanobis Distance model. It should be also noted that the choice of the thresholds for Mahalanobis Distance model and Variational AutoEncoder model played a significant roled in determining their performances.
 
 ### 2.4. Feature Importances
 
