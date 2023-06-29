@@ -27,11 +27,11 @@ For each type of injection-molded parts, the distributions of the processing par
 
 #### Distribution of Processing Parameters for `CN7`
 
-<img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/cn7_parameter_distribution.png" style="width:800px;height:2400px;background-color:white">
+<img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/cn7_parameter_distribution.png" style="width:800px;height:1800px;background-color:white">
 
 #### Distribution of Processing Parameters for `RG3`
 
-<img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/rg3_parameter_distribution.png" style="width:800px;height:2400px;background-color:white">
+<img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/rg3_parameter_distribution.png" style="width:800px;height:1800px;background-color:white">
 
 ### 2.3. Classification of Defective Parts for `CN7`
 
