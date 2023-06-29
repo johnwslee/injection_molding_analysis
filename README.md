@@ -1,13 +1,13 @@
 ![license
 status](https://img.shields.io/github/license/johnwslee/injection_molding_analysis)
 
-# Classification of Defective Parts in Injection Molding Using Various Modeling Approaches
+# Classification of Defective Parts in Injection Molding Using Various Machine Learning Approaches
 
 **Author:** John W.S. Lee
 
 ## 1. Introduction
 
-In this study, efforts were made to classify the defects from the parts produced by injection molding processes. 3 different modeling approaches (i.e. supervised learning models, Mahalanobis Distance model, and Variational AutoEncoder Model) were implemented and their performances were compared.
+In this study, efforts were made to classify the defects from the parts produced by injection molding processes. 3 different modeling approaches (i.e. supervised learning models, Mahalanobis Distance model, and Variational AutoEncoder model) were implemented and their performances were compared.
 
 The dataset used in this study was downloaded from the Korea AI Manufacturing Platform, also known as [KAMP](https://www.kamp-ai.kr/aidataDetail?AI_SEARCH=&page=1&DATASET_SEQ=4&EQUIP_SEL=&GUBUN_SEL=&FILE_TYPE_SEL=&WDATE_SEL=). The website is written in Korean, however, the contents of the dataset were mostly written in English. The dataset contained 7,996 rows with 44 columns. One of the columns was the label for the target, `PassOrFail`.
 
@@ -33,28 +33,25 @@ For each type of injection-molded parts, the distributions of the processing par
 
 <img src="https://github.com/johnwslee/injection_molding_analysis/blob/main/img/rg3_parameter_distribution.png" style="width:800px;height:1800px;background-color:white">
 
-### 2.3. Classification of Defective Parts for `CN7`
+### 2.3. Classification of Defective Parts for `CN7` and `RG3`
 
+As mentioned above, 3 different machine learning approaches were implemented for the purpose of classifying the defective injection-molded parts. Detailed codes can be found in the [notebook folder](https://github.com/johnwslee/injection_molding_analysis/tree/main/notebooks). Since there was a significant class imbalances, f1-score was used as the evaluation metric.
 
+For `CN7`, the f1-scores for supervised learning models, Mahalanobis Distance model, and Variational AutoEncoder model were 0.67, 0.55, and 0.73, respectively. 
 
+For `RG3`, the f1-scores for supervised learning models, Mahalanobis Distance model, and Variational AutoEncoder model were 0, 0.3, and 0.24, respectively. 
 
+Clearly, the effectiveness of the models were different for `CN7` and `RG3` parts. Especially, it was surprising that the f1-score could be improved from 0 to 0.3 by switching from supervised learning models to Mahalanobis Distance model. It should be also noted that the choice of the thresholds for Mahalanobis Distance model and Variational AutoEncoder model played a significant roled in determining their performances.
 
-### 2.4. Classification of Defective Parts for `RG3`
+### 2.4. Feature Importances
 
+Feature importances for `CN7` parts were checked on 3 models (i.e, SVC, RandomForest, and LightGBM) using the models' built-in function and `shap` library. 
 
-
-
-
-
-### 2.5. Feature Importances
-
-
-
-
+The importance of each feature appeared to be slightly different based on the models and the methods used. It turned out that "Max Injection Speed", "Filling Time", "Mold Temperature 4", "Barrel Temperature 1", and "Plasticizing Position" were the processing parameters that models thought to be important.
 
 ## 3. Conclusion
 
-
+This study demonstrated how various machine learning approaches performed in the classification of defective parts in injection molding. It turned out that the performance of each approach varied based on the type of datasets, `CN7` and `RG3` for this study. For `CN7` parts, Variational AutoEncoder performed best, whereas Mahalanobis Distance model performed best for `RG3`. This suggests that it is important to try several machine learning approaches to find the best-performing approach for a given data.
 
 ## How to Run the Notebooks Locally
 
