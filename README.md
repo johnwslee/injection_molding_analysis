@@ -7,11 +7,11 @@ status](https://img.shields.io/github/license/johnwslee/injection_molding_analys
 
 ## 1. Introduction
 
-In this study, efforts were made to classify the defects from the parts produced by injection molding processes. 3 different modeling approaches (i.e. supervised learning models, Mahalanobis Distance model, and Variational AutoEncoder model) were implemented and their performances were compared.
+In this study, efforts were made to classify defects in parts produced by injection molding processes. Three different modeling approaches, namely supervised learning models, Mahalanobis Distance model, and Variational AutoEncoder model, were implemented and their performances were compared.
 
-The dataset used in this study was downloaded from the Korea AI Manufacturing Platform, also known as [KAMP](https://www.kamp-ai.kr/aidataDetail?AI_SEARCH=&page=1&DATASET_SEQ=4&EQUIP_SEL=&GUBUN_SEL=&FILE_TYPE_SEL=&WDATE_SEL=). The website is written in Korean, however, the contents of the dataset were mostly written in English. The dataset contained 7,996 rows with 44 columns. One of the columns was the label for the target, `PassOrFail`.
+The dataset used in this study was downloaded from the Korea AI Manufacturing Platform, also known as [KAMP](https://www.kamp-ai.kr/aidataDetail?AI_SEARCH=&page=1&DATASET_SEQ=4&EQUIP_SEL=&GUBUN_SEL=&FILE_TYPE_SEL=&WDATE_SEL=). Although the website is written in Korean, the contents of the dataset were mostly written in English. The dataset consisted of 7,996 rows with 44 columns. One of the columns represented the target label, `PassOrFail`.
 
-The followings are the summary of this study, while more detailed codes and notebooks used for this study can be found in [notebook folder](https://github.com/johnwslee/injection_molding_analysis/tree/main/notebooks).
+The following is a summary of this study. For more detailed codes and notebooks used in this study, please refer to the [notebook folder](https://github.com/johnwslee/injection_molding_analysis/tree/main/notebooks).
 
 ## 2. Summary of Study
 
